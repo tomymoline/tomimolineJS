@@ -1,0 +1,79 @@
+.index1 {
+  width: 100vw;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(14.06%, #48ffa7), color-stop(67.19%, #c3c62c));
+  background: linear-gradient(180deg, #48ffa7 14.06%, #c3c62c 67.19%);
+}
+
+.index1 h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  letter-spacing: 8px;
+}
+
+.cta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cta h3 {
+  padding-left: 10%;
+  background: linear-gradient(173.33deg, rgba(33, 33, 22, 0.49) 42.04%, rgba(25, 75, 204, 0.49) 128.93%);
+  -webkit-background-clip: text;
+  color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3.7em;
+  letter-spacing: 6px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cta h5 {
+  width: 50vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+}
+
+.ball {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #c21a1a;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background-color: #c21a1a;
+  -webkit-box-shadow: inset 0px 0px 19px 5px rgba(0, 0, 0, 0.48);
+          box-shadow: inset 0px 0px 19px 5px rgba(0, 0, 0, 0.48);
+}
+/*# sourceMappingURL=main.css.map */
