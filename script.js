@@ -1,26 +1,53 @@
-// Consultar al usuario el año de su vehiculo (valor numerico)
-// Pasarle por alert el valor que tiene su impuesto de patente anual
-// Si el auto tiene menos de 10 años de antiguedad abona $ 50000 (0-9 años)
-// Si el auto tiene entre 10 años y 15 años de antiguedad abona $ 35000 (10 - 15 años)
-// Sino abona $ 10000 ( mayor a 15
-
-let edad = prompt("eres mayor de 18 años? responde si o no!");
-
-if (edad == "si") {
-  alert("bienvenido a TravelSugest.com!");
-} else {
-  alert("lo lamento, debes ser mayor de edad");
-}
-
-let nombreUsuario = prompt("cual es tu nombre?");
+let viajero = prompt("Cual es tu nombre?");
+let pais = prompt("hola" + " " + viajero + " " + "en que pais vives?");
+let edad = prompt("Cual es tu edad??");
 
 alert(
-  "hola " +
-    nombreUsuario +
+  "tu nombre es" +
     " " +
-    "te voy a ayudar a cosneguir tu destino ideal!"
+    viajero +
+    " " +
+    ", vives en" +
+    "  " +
+    pais +
+    " " +
+    "y tienes" +
+    " " +
+    edad +
+    "  " +
+    "de edad"
 );
 
-for (let index = 0; index < 3; index++) {
-  alert("hola coders");
+if (pais == "Argentina" || "argentina") {
+  alert(
+    "bueno" + " " + viajero + " ," + " tu aeropuerto mas cercano es EZEIZA"
+  );
+}
+
+let destino1 = "Barcelona" + " ";
+let destino2 = "Londres" + " ";
+let destino3 = "Paris" + " ";
+let destino4 = "Dublin" + " ";
+
+alert(
+  "los destinos disponibles en esta temporada son:" +
+    " " +
+    destino1 +
+    destino2 +
+    destino3 +
+    destino4
+);
+
+let deseoDeViaje = prompt(
+  "te interesa algun destino? de ser asi, escribe su nombre"
+);
+if (deseoDeViaje == destino1 || destino2 || destino3 || destino4) {
+  let fecha = alert(
+    " te felicito" +
+      " " +
+      viajero +
+      " " +
+      "has elegido un gran lugar para viajar"
+  );
+} else {
 }
