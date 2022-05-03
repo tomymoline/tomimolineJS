@@ -50,5 +50,6 @@ if (deseoDeViaje == destino1 || destino2 || destino3 || destino4) {
       "has elegido un gran lugar para viajar"
   );
 } else {
+  alert("nos vemos la proxima!");
 }
-//fff
+//fffgit
